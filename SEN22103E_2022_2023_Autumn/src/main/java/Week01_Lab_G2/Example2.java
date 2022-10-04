@@ -2,24 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.fsm.bp1_lab1;
+package Week01_Lab_G2;
 
 /**
  *
  * @author skaya
  */
-public class EX7 {
+public class Example2 {
+
     public static void main(String[] args) {
-        int a =5;
-        int b= 7;
-        System.out.println("a= "+a+" b= "+b);
-        
-        int tmp= a ;
-        a= b;
-        b= tmp;
-        
-        System.out.println("a= "+a+" b= "+b);
-        
+        double r = 5;
+        double pi = 3.14;
+
+        double circumference = r * 2 * pi;
+        System.out.println(r + " * 2 * " + pi + " = " + circumference);
     }
-    
 }

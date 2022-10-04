@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.fsm.bp1_lab1;
+package Week01_Lab_G1;
 
 /**
  *
  * @author skaya
  */
-public class EX9 {
+public class Example9 {
 
     public static void main(String[] args) {
         int F0 = 0;

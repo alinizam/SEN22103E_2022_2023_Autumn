@@ -3,13 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.fsm.bp1_lab1;
+package Week01_Lab_G1;
 
 /**
  *
  * @author skaya
  */
-public class BP1_LAB1 {
+public class Example1 {
 
     public static void main(String[] args) {
         double radius = 5;

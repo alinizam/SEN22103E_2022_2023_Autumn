@@ -2,16 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.fsm.bp1_lab1_g2;
+package Week01_Lab_G2;
 
 /**
  *
  * @author skaya
  */
-public class EX10 {
+public class Example7 {
+
     public static void main(String[] args) {
-        int s1= 65;
-        int a= (s1/10)*10;
-        System.out.println(s1-a);
+        int a = 5;
+        int b = 7;
+        System.out.println("a= "+a+" b= "+b);
+        int tmp= a;
+        a = b;
+        b = tmp;
+        System.out.println("a= "+a+" b= "+b);
     }
 }
