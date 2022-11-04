@@ -2,16 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Week6_theory;
+package Week06_theory;
 
 /**
  *
  * @author ali.nizam
  */
-public class Example6 {
+public class Example5 {
     public static void main(String[] args) {
-        for (int i = 5; i <=1 ; i--) {
-            System.out.println("Runned");
+          System.out.println("loop start");
+          for (int i = 0; i < 10; i++) {
+            // Problematic Code
+          
+            i++;
+            System.out.println(i);
         }
     }
 }
