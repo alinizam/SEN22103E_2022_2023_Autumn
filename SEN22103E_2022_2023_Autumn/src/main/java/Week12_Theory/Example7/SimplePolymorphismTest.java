@@ -8,7 +8,7 @@ package Week12_Theory.Example7;
  *
  * @author ali.nizam
  */
-public class SimplePolimorhismTest {
+public class SimplePolymorphismTest {
     public static void main(String[] args) {
         
         Car c=new Car();

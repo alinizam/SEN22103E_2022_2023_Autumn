@@ -8,7 +8,7 @@ package Week12_Theory.Example7;
  *
  * @author ali.nizam
  */
-public class PoliTEst {
+public class PolymorphismTest {
     public static void main(String[] args) {
         int total=0;
         Car[] cars=new Car[5]; 
