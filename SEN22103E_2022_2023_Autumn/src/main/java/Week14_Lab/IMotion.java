@@ -17,4 +17,5 @@ public interface IMotion {
     int getY2();
     void setXY(int x1,int x2,int y1,int y2);
     void writePosition();
+    int getArea();
 }

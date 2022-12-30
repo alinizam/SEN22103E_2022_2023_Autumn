@@ -51,5 +51,10 @@ public class TextBox implements IMotion{
     public void writePosition() {
         System.out.println("x="+x1+":"+x2+"    y= "+y1+":"+y2);
     }
+
+    @Override
+    public int getArea() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
